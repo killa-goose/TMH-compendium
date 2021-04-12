@@ -1,0 +1,46 @@
+/* External Fonts. */
+
+@font-face {
+  font-family: "jquery-ui";
+  src: url("//cdn.jsdelivr.net/npm/jquery-ui-iconfont@2.3.2/font/jquery-ui.woff2") format('woff2') !important;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.flip-h{
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph; /*IE*/
+  filter: fliph; /*IE*/
+}
+
+input[disabled], button[disabled] {
+  cursor: not-allowed !important;
+}
+
+/* Footer Technology icon styles */
+.ui-icon-jquery {
+  color: #4f81bd;
+}
+
+.dt-js {
+  position: relative;
+  top: 2px;
+  background-position: center;
+  background-image: url("https://www.datatables.net/favicon.ico");
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+.popper-js {
+  display: inline-block;
+  line-height: 1;
+}

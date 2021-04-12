@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="TheAlmightyGoose (Greylag)">
+    <title>TMH Compenidum</title>
+    <!--link rel="canonical" href="\\//placeholder/"-->
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" data-integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="/vendor/jquery/plugins/jquery.bs4-scrolling-tabs.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" integrity="sha256-rlQRIEywGeFAwUjmU9vLTshcui4Hn/WP++pVMIefSnY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/brands.min.css" integrity="sha256-nNY7jOolBFwUYjxTjSZ1JRiljAxoJ5XOatMHiXbGWjc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.css" integrity="sha256-5a0xpHkTzfwkcKzU4wSYL64rzPYgmIVf7PO4TB5/6jQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-iconfont@2.3.2/jquery-ui.icon-font.min.css" integrity="sha256-WQHMT9AilNbX+Rgoiev2qRWXY3Z4pFLU1xiOopEB3wo=" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <script id="tabsJSON" type="application/json">
+      [
+        { "paneId": "home", "title": "Home", "active": true, "disabled": false },
+        { "paneId": "champs", "title": "Championships", "active": false, "disabled": false },
+        { "paneId": "events", "title": "Special Events", "active": false, "disabled": false },
+        { "paneId": "wrestlers", "title": "Wrestlers", "active": false, "disabled": false },
+        { "paneId": "gear", "title": "Gear", "active": false, "disabled": false },
+        { "paneId": "leagues", "title": "Leagues", "active": false, "disabled": false},
+        { "paneId": "community", "title": "Community Events", "active": false, "disabled": false}
+      ]
+    </script>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="fas fa-book-dead"></span>
+        <span class="fas fa-bible flip-h"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <div class="flex-flow-reverse ms-3">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" disabled>
+            <button class="btn btn-outline-success" type="submit" aria-disabled="true" disabled>Search</button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container tab-content">
+    <div class="mb-3" id="navTabs"></div>
+
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid pt-5 pb-3">
+          <h1 class="display-5 fw-bold">Get ready to Hustle!</h1>
+          <p class="col-md-8 fs-4">This site is under construction by yours truly, TheAlmightyGoose, as I am known in-game! The intention is for this to become a Mecca for hustlers looking to stick their Gym with a big ol' dose of juice!</p>
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Link with href
+          </a>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+          </button>
+          <br>
+          <br>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Discord Community</h2>
+            <p>The official Discord server is great place to learn more about the game;
+              find friends to pay with or against; compete in regular events for prizes;
+              discuss tactics, or whatever is on your mind.</p>
+            <a href="//discord.gg/MHnmz7RVkW" target="_blank" class="btn btn-secondary"><span class="bi bi-discord">&nbsp;</span>To Discord!</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>Dandio Games</h2>
+            <p>The Muscle Hustle is a mobile game by Dandio Games Inc.
+              A bunch of cool dudes making a very cool game.</p>
+              <a href="http://dand.io" target="_blank" class="btn btn-primary">Show me Dandio!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="champs" role="tabpanel" aria-labelledby="champs-tab">
+      <section id="championships">
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+      <section id="special-events">
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="wrestlers" role="tabpanel" aria-labelledby="wrestlers-tab">
+      <section id="wrestlerpedia">
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="gear" role="tabpanel" aria-labelledby="gear-tab">
+      <section>
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="leagues" role="tabpanel" aria-labelledby="leagues-tab">
+      <section>
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab">
+      <section>
+      </section>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Made with <i class="bi bi-heart-fill" style="color:var(--bs-red)"></i> by Greylag using:</span>
+    <a href="//getbootstrap.com" target="_blank"><span class="bi bi-bootstrap-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter Bootstrap 5" style="color: var(--bs-indigo);"></span></a>
+    <a href="//jquery.com" target="_blank"><span class="ui-icon ui-icon-jquery" data-bs-toggle="tooltip" data-bs-placement="top" title="jQuery"></span></a>
+    <a href="//fontawesome.com" target="_blank"><span class="fab fa-font-awesome" data-bs-toggle="tooltip" data-bs-placement="top" title="Font Awesome"></span></a>
+    <a href="//datatables.net" target="_blank"><span class="dt-js" data-bs-toggle="tooltip" data-bs-placement="top" title="DataTables"></span></a>
+    <a href="//popper.js.org" target="_blank"><span class="popper-js" data-bs-toggle="tooltip" data-bs-placement="top" title="Popper JS">&#127871;</span></a>
+  </div>
+</footer>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"></script>
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/jquery/plugins/jquery.bs4-scrolling-tabs.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.1/underscore.js" crossorigin="anonymous"></script>
+  <script src="/vendor/underscore/mixins.js"></script>
+  <script src="https://backbonejs.org/backbone.js" crossorigin="anonymous"></script>
+  <script src="/vendor/backbone/backbone-validation-min.js"></script>
+  <script src="/js/models.js"></script>
+  <script src="/js/views.js"></script>
+  <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<% _.each(collection, function(model) { %>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="infoPane-<%= model.id %>" aria-labelledby="infoPaneLabel-<%= model.id %>">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="infoPaneLabel-<%= model.id %>"><%= model.Name %></h5>
+            <p><%= model.Tier %></p>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row align-items-sm-stretch">
+                <div class="col-sm-12">
+                    <div class="h-100 p-5 text-white bg-info rounded-3">
+                        <h2><%= model.Name %> Stats</h2>
+                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                        <code><%= model.cid %></code>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown mt-3">
+                <label for="wrestlerTierRange" class="form-label">Wrestler Tier</label>
+                <input type="range" class="form-range" min="<%= model.MinTier %>" max="<%= model.MaxTier %>" id="wrestlerTierRange">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<% }); %>

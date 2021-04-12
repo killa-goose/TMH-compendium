@@ -1,0 +1,86 @@
+[
+  { "Name": "WELLFIELD CHAMPIONSHIP",
+    "NStages": 6,
+    "id": 1
+  },
+  { "Name": "HOUSTOPOLIS CHAMPIONSHIP",
+    "NStages": 8,
+    "id": 2
+  },
+  { "Name": "LEAVELAND CHAMPIONSHIP",
+    "NStages": 8,
+    "id": 3
+  },
+  { "Name": "NEW GATORTON CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 4
+  },
+  { "Name": "RAIN CITY CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 5
+  },
+  { "Name": "LOST ANGELS CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 6
+  },
+  { "Name": "TWINNEAPOLIS CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 7
+  },
+  { "Name": "PIE TOWN CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 8
+  },
+  { "Name": "MARTHASVILLE CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 9
+  },
+  { "Name": "TE PUKE CHAMPIONSHIP",
+    "NStages": 10,
+    "id": 10
+  },
+  { "Name": "PARADISE CITY CHAMPIONSHIP",
+    "NStages": 12,
+    "id": 11
+  },
+  { "Name": "GRUNGE LEAGUE CHAMPIONSHIP",
+    "NStages": 12,
+    "id": 12
+  },
+  { "Name": "SOAPBOX CITY CHAMPIONSHIP",
+    "NStages": 12,
+    "id": 13
+  },
+  { "Name": "TWINKLE TOWN CHAMPIONSHIP",
+    "NStages": 12,
+    "id": 14
+  },
+  { "Name": "ROWDY SPRINGS CHAMPIONSHIP",
+    "NStages": 12,
+    "id": 15
+  },
+  { "Name": "CABO SAN LUCHAS CHAMPIONSHIP",
+    "NStages": 14,
+    "id": 16
+  },
+  { "Name": "WRECKYAVIK CHAMPIONSHIP",
+    "NStages": 15,
+    "id": 17
+  },
+  { "Name": "CHOKYO CHAMPIONSHIP",
+    "NStages": 15,
+    "id": 18
+  },
+  { "Name": "BRAWLIN CHAMPIONSHIP",
+    "NStages": 15,
+    "id": 19
+  },
+  { "Name": "SLAMSTERDAM CHAMPIONSHIP",
+    "NStages": 15,
+    "id": 20
+  },
+  { "Name": "SEOUL CRUSHING CHAMPIONSHIP",
+    "NStages": 15,
+    "id": 21
+  }
+]

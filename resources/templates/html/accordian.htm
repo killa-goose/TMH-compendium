@@ -1,0 +1,21 @@
+<div class="accordion" id="championshipsAccordian">
+  <% _.each(collection, function(model) { %>
+    <div class="card">
+      <div class="card-header" id="champ-heading-<%= model.id %>">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#champ-<%= model.id %>" aria-expanded="true" aria-controls="champ-<%= model.id %>">
+            <%= model.Name %><span class="badge badge-pill badge-success float-right"><%= model.NStages %></span>
+          </button>
+        </h2>
+      </div>
+  
+      <div id="champ-<%= model.id %>" class="collapse" aria-labelledby="champ-heading-<%= model.id %>" data-bs-parent="#championshipsAccordian">
+        <div class="card-body">
+          <h3><%= model.Name %></h3>
+          <p>Stages: <%= model.NStages %></p>
+          Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+        </div>
+      </div>
+    </div>
+  <% }); %>
+</div>

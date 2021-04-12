@@ -1,0 +1,25 @@
+[
+  {
+    "Abilities": {},
+    "AbilityLevels": 0,
+    "Alignment": "",
+    "Archetype": "",
+    "AscensionLevel": 0,
+    "Attack": 100,
+    "CountdownReduction": 0,
+    "DamageReduction": 0,
+    "Gear": [],
+    "Health": 5000,
+    "Level": 1,
+    "Name": "The Dragon",
+    "Power": 200,
+    "Range": 80,
+    "Role": "Wild",
+    "Speed": 75,
+    "SprintTime": 1.5
+  },
+  {
+    "Abilities": {},
+    "Name": "Ray Cady"
+  }
+]
