@@ -1,5 +1,5 @@
 <% _.each(collection, function(model) { %>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="infoPane-<%= model.id %>" aria-labelledby="infoPaneLabel-<%= model.id %>">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="wrestlerInfo-<%= model.id %>" aria-labelledby="infoPaneLabel-<%= model.id %>">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="infoPaneLabel-<%= model.id %>"><%= model.Name %></h5>
             <p><%= model.Tier %></p>
@@ -24,6 +24,7 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
             </div>
+            <pre><% print(JSON.stringify(model, null, "\t")); %></pre>
         </div>
     </div>
 <% }); %>

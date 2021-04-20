@@ -1,4 +1,9 @@
 var Wrestler = Backbone.Model.extend({
+  initialize: function() {
+    this.set('id', this.attributes.Name.replace(/ /g,""));
+    this.set('MinTier', function() {return this.MaxTier - 2});
+    console.log(this);
+  },
   defaults: {
     Abilities: {},
     AbilityLevels: 0,
@@ -11,19 +16,19 @@ var Wrestler = Backbone.Model.extend({
     Description: "",
     Gear: [],
     Health: 5000,
-    id: function() {return this.model.constructor.name + "-" + this.Name.replace(" ","")},
+    id: "",
     Level: 1,
     Name: "",
     MaxLevel: 65,
     MaxTier: 6,
-    MinTier: function() {return this.MaxTier - 2},
+    MinTier: 4,
     MovementType: "",
     Power: 200,
     Range: 80,
     Role: "",
     Speed: 75,
     SprintTime: 1.5,
-    Talent: "",
+    Talent: "Superstar",
     Weight: 250
   }
 });

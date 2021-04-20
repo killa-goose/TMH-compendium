@@ -16,10 +16,28 @@
     "Range": 80,
     "Role": "Wild",
     "Speed": 75,
-    "SprintTime": 1.5
+    "SprintTime": 1.5,
+    "Talent": "Superstar"
   },
   {
-    "Abilities": {},
     "Name": "Ray Cady"
+  },
+  {
+    "Name": "Impact"
+  },
+  {
+    "Name": "Supernova"
+  },
+  {
+    "Name": "Body Check"
+  },
+  {
+    "Name": "Bloody Neck"
+  },
+  {
+    "Name": "Full Metal Jackie"
+  },
+  {
+    "Name": "Deadly Don Doubledare"
   }
 ]

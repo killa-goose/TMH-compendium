@@ -1,0 +1,9 @@
+    <div class="card list-inline-item ui-state-default" style="max-width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= model.Name %></h5>
+        <p class="card-text"><% if (model.Talent) { %><%= model.Talent %><% } else { %>This is a wrestler.<% } %></p>
+        <button class="btn btn-primary details-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#wrestlerInfo-<%= model.id %>" aria-controls="wrestlerInfo-<%= model.id %>">
+          Details
+        </button>
+      </div>
+    </div>

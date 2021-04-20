@@ -72,13 +72,25 @@ $(function() {
     history.replaceState(null, null, tabUrl);
   });
   // Extend Backbone Model with Backbone.Validation mixin
-  _.extend(Backbone.Model.prototype, Backbone.Validation.mixin);
+  //_.extend(Backbone.Model.prototype, Backbone.Validation.mixin);
   // Initialise Backbone collections & views
   var Championships = new ChampionshipsCollection();
   var champsView = new ChampionshipView({collection: Championships});
   Championships.fetch({reset: true});
   var Wrestlers = new WrestlersCollection();
-  var gymView = new GymView({collection: Wrestlers});
+  //var gymView = new GymView({collection: Wrestlers});
   Wrestlers.fetch({reset: true});
-  var wrestlerView = new WrestlerView({collection: Wrestlers});
+  var gymView = new Backbone.CollectionView({
+    el: $('#gym'),
+    selectable: true,
+    sortable: true,
+    sortableOptions: {
+      axis: "x y",
+      placeholder: "gym-placeholder"
+    },
+    collection: Wrestlers,
+    modelView: GymWrestlerView
+  });
+  gymView.render();
+  var wrestlerView = new WrestlerInfoView({collection: Wrestlers});
 });
